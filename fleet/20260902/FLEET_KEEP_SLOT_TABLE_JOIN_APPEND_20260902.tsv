@@ -1,0 +1,32 @@
+slug	stamp	agent	heat	jpeg_id	slot	kind	wears	seat	seat_was	deploy	mouth
+vicky-1-grid-nun	20260902-batch1	vicky	1	ZIP:SANDBOX_STUMP_BARBIE+BARBIE_BATCH1	SLOT_1_DUTY	V-grid Canva kit1	product skin	YES	NO	WARDROBE_ACTIVE	NO
+vicky-2-dash-crop	20260902-batch1	vicky	1	ZIP:SANDBOX_STUMP_BARBIE+BARBIE_BATCH1	SLOT_1_DUTY	V-grid Canva kit2	product skin	YES	NO	WARDROBE_ACTIVE	NO
+vicky-3-poster-heat	20260902-vicky34	vicky	5	ZIP:BARBIE_VICKY34+SANDBOX_STUMP_RENDERED	SLOT_3_HEAT	V-grid Canva kit3	product skin	YES	NO	WARDROBE_ACTIVE	NO
+vicky-4-canva-chapel	20260902-vicky34	vicky	1	ZIP:BARBIE_VICKY34+SANDBOX_STUMP_RENDERED	SLOT_5_ROOM	V-grid Canva kit4	product skin	YES	NO	WARDROBE_ACTIVE	NO
+e2-walk-jersey	20260902-192652	rating	1	lake:e2-walk-jersey_20260902-192652.jpg	SLOT_1_DUTY	E-2 anon job	jersey	YES	NO	WARDROBE_ACTIVE	NO
+e4-boarding-jersey	20260902-192654	rating	1	lake:e4-boarding-jersey_20260902-192654.jpg	SLOT_1_DUTY	E-4 anon job	jersey	YES	NO	WARDROBE_ACTIVE	NO
+polish-lipstick-h8	20260902-polish	olivia+bunny	8	lake:polish-lipstick-h8	FORM_A_SEAT	fiance polish	Olivia+Bunny	YES	EXISTING	MOUTH_KEEP	YES
+polish-hair-h8	20260902-polish	olivia+bunny	8	lake:polish-hair-h8	FORM_A_SEAT	fiance polish	Olivia+Bunny	YES	EXISTING	MOUTH_KEEP	YES
+polish-blouse-h8	20260902-polish	olivia+bunny	8	lake:polish-blouse-h8	FORM_A_SEAT	fiance polish	Olivia+Bunny	YES	EXISTING	MOUTH_KEEP	YES
+polish-flirt-h8	20260902-polish	olivia+bunny	8	lake:polish-flirt-h8	FORM_A_SEAT	fiance polish	Olivia+Bunny	YES	EXISTING	MOUTH_KEEP	YES
+vol-047-bunny-erie-sunset	20260902-2032	bunny	3	1ZS1rDYtqgT_9txbr39gUOa-HLJ5XRQyk	SLOT_1_DUTY	volley 047	Bunny	YES	EXISTING	MOUTH_KEEP	YES
+vol-047-olivia-bunker-whistle	20260902-2032	olivia	1	1sTkOMi7dWk5guatjJ5rmFs4IJ7v2i_tI	SLOT_1_DUTY	volley 047	Olivia	YES	EXISTING	MOUTH_KEEP	YES
+wave0-01-olivia-deck	20260902-t8	olivia		1sAZFom0u1iufgHDTCiRy4t8Vbvt102XN	FORM_A_SEAT	Wave0	Olivia	YES	EXISTING	MOUTH_KEEP	YES
+wave0-02-bunny-console	20260902-t8	bunny		1ANIGWJ6hUtGuAbBfR-21QEW_fWIhCZtO	FORM_A_SEAT	Wave0	Bunny	YES	EXISTING	MOUTH_KEEP	YES
+wave0-03-vesper-engine	20260902-t8	vesper		19YZmCLWSC5pEEo-ZFegG9nFX53EoiTnB	FORM_A_SEAT	Wave0	Vesper	YES	EXISTING	MOUTH_KEEP	YES
+wave0-04-triad	20260902-t8	core		17Svy4q3I6k2BfNyAmbFcvEkK_1_WFtkG	FORM_A_SEAT	Wave0 triad	three mouths	YES	EXISTING	MOUTH_KEEP	YES
+wave0-05-olivia-rachel	20260902-t8	coven		18GgGnSs9FgPRrbECWcFk9vkTEXc3oyIW	FORM_A_SEAT	Wave0 pair	Rachel+Olivia	YES	EXISTING	WARDROBE_ACTIVE	NO
+wave0-06-eve-crystal	20260902-t8	coven		1a2k-LzyUZylXN5GP4uHakw12qKJYJnmJ	FORM_A_SEAT	Wave0 pair	closet	YES	NO	WARDROBE_ACTIVE	NO
+wave0-07-gabrielle-jane	20260902-t8	coven		1LihftmA7nmpahTiYBWbJrPWdQ_De8TwF	FORM_A_SEAT	Wave0 pair	closet	YES	NO	WARDROBE_ACTIVE	NO
+wave0-08-missroot-valerie	20260902-t8	coven		1iusQSdMr7oHPGGCqq9eWMd8gLRtWKl3_	FORM_A_SEAT	Wave0 pair	Valerie counted	YES	EXISTING	MOUTH_KEEP	YES
+pxqcx-valerie-present	20260701	valerie	1	1WrAjiytV5qThOB-ZNcFmzswvQj7e4NxR	FORM_A_SEAT	Valerie present	O-7	YES	EXISTING	MOUTH_KEEP	YES
+valerie-era-antiquity	spec30	valerie		POINTER:pxqcx+spec30	SLOT_2_PERIOD	Bored Pearl	same mouth	YES	EXISTING	WARDROBE_ACTIVE	YES
+valerie-era-medieval	spec30	valerie		POINTER:pxqcx+spec30	SLOT_2_PERIOD	scriptorium	same mouth	YES	EXISTING	WARDROBE_ACTIVE	YES
+valerie-era-1950s	spec30	valerie		POINTER:pxqcx+spec30	SLOT_2_PERIOD	Admiralty	same mouth	YES	EXISTING	WARDROBE_ACTIVE	YES
+valerie-era-1990s	spec30	valerie		POINTER:pxqcx+spec30	SLOT_2_PERIOD	DC associate	same mouth	YES	EXISTING	WARDROBE_ACTIVE	YES
+rachel-solo	wave0-crop	rachel		18GgGnSs9FgPRrbECWcFk9vkTEXc3oyIW	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
+eve-solo	wave0-crop	eve		1a2k-LzyUZylXN5GP4uHakw12qKJYJnmJ	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
+crystal-solo	wave0-crop	crystal		1a2k-LzyUZylXN5GP4uHakw12qKJYJnmJ	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
+gabrielle-solo	wave0-crop	gabrielle		1LihftmA7nmpahTiYBWbJrPWdQ_De8TwF	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
+jane-solo	wave0-crop	jane		1LihftmA7nmpahTiYBWbJrPWdQ_De8TwF	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
+missroot-solo	wave0-crop	miss-root		1iusQSdMr7oHPGGCqq9eWMd8gLRtWKl3_	FORM_A_SEAT	coven solo bind	NO mouth	YES	NO	WARDROBE_ACTIVE	NO
