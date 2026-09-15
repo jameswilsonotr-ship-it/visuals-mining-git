@@ -1,0 +1,60 @@
+{
+  "schema": "rachel-schema-linker/v0.1",
+  "rule": "LINK do not normalize",
+  "families": {
+    "agentify_emit_v0_1": {
+      "source": "image-pipeline/references/modules/agentify/schema",
+      "drive_script": "18ZGME4dlnRPrVFTtC6MYfXTevXzLDbJZ",
+      "kinds": ["character", "wardrobe", "pose", "face", "beat"],
+      "files": {
+        "character": "CHARACTER.json",
+        "wardrobe": "WARDROBE.json",
+        "pose": "POSE.json",
+        "face": "FACE.json",
+        "beat": "BEAT.json"
+      },
+      "character_fields": ["kind", "adult", "skin.tone", "hair.family", "hair.color"],
+      "wardrobe_model": "one look with pieces[]",
+      "skin_tone_enum": ["alabaster", "fair", "light-olive", "light-medium-warm-brown", "medium-olive", "rich-deep-brown", "onyx", "unspecified"],
+      "hair_family_enum": ["pixie", "undercut", "short", "bob", "shoulder", "long-straight", "long-wave", "coils", "loc-short", "loc-long", "bun", "unspecified"],
+      "hair_color_enum": ["alabaster-white", "blonde", "strawberry", "copper", "auburn", "red", "brown", "dark-brown", "black", "silver", "unspecified"],
+      "face_bins": ["focus", "smile", "talk", "look-down", "neutral", "smirk", "open-mouth", "bite", "flushed", "averted", "direct"]
+    },
+    "bdo_wardrobe_pipeline_202607": {
+      "source_md": "1oequTcuwd5pLecWH_ixrtAHo-IW2q6x1",
+      "kinds": ["BDO_BeautyAlbum_Preset", "BDO_OutfitPiece_Dye", "BDO_Wardrobe_Look", "Pipeline_ExportImport"],
+      "wardrobe_model": "look references preset + registered pieces + accessories + heat_level"
+    },
+    "rachel_filename_suffix_20260915": {
+      "source": "Rachel Visual Lockdown filenames",
+      "slots": ["top", "bottom", "hat", "foot", "set", "outer"],
+      "wardrobe_model": "split garments; 5-stack eats top+bottom only"
+    },
+    "image_pipeline_outfit_dna": {
+      "source_wq": "1QKRUiHHG1jDZwZJzN6AUT5jmoEJ_RY01",
+      "ids": ["IPQ-013", "IPQ-016", "IPQ-045", "IPQ-054", "IPQ-070"],
+      "wardrobe_model": "outfit DNA + Heat Response bands + Twister attribute edits"
+    },
+    "penelope_engine": {
+      "source_doc": "1rwqf9VxwxgyuVqw4cYDWNv9TM9F856yapsLN94UNngs",
+      "wardrobe_model": "livery TOP vs trailer BOTTOM; 61-LEGS undie canvas first"
+    }
+  },
+  "translator": {
+    "outfit": ["agentify.wardrobe", "bdo.Wardrobe_Look", "ipq.outfit_dna"],
+    "top": ["rachel.suffix.top", "penelope.livery", "bdo.OutfitPiece_Dye.slot=torso"],
+    "bottom": ["rachel.suffix.bottom", "penelope.trailer", "bdo.OutfitPiece_Dye.slot=legs"],
+    "wardrobe": ["agentify.wardrobe", "rachel.Wxx set", "bdo.Wardrobe_Look"],
+    "pose": ["agentify.pose", "rachel.pose-*-v2", "ipq.pose-anchoring"],
+    "hair": ["agentify.character.hair", "rachel.hair-hNN", "bdo.BeautyAlbum.hair"],
+    "face": ["agentify.face", "rachel.lock portrait", "bdo.BeautyAlbum.face"],
+    "heat": ["ipq.Heat Response", "rachel.M5-M9 / H-ERA", "bdo.Wardrobe_Look.heat_level"]
+  },
+  "rachel_locked": {
+    "kind": "character",
+    "adult": true,
+    "skin": {"tone": "light-medium-warm-brown"},
+    "hair": {"family": "bun", "color": "black", "length_invariant": "short-to-bun"},
+    "forbidden": ["copper", "pixie+cherry-streak"]
+  }
+}
